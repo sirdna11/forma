@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Registration Form</title>
+</head>
+<body>
+   <main>
+    <div class="container">
+        <div>
+            <h1>Registration Form</h1>
+        </div>
+            
+            <form   class="form">
+                <div class="name-container">
+                    <label for="first-name">First-name
+                        <input type="text" id="first-name" name="first-name" required placeholder="First-name...">
+                    </label>
+                    <label for="last-name">last-name
+                        <input type="text" id="last-name" name="last-name" required placeholder="last-name...">
+                    </label>
+                </div>
+                <div class="email-container">
+                    <label for="email">Email:
+                        <input type="email" id="email" name="email" required placeholder="email...">
+                    </label>
+                    <label for="password">Password:
+                        <input type="password" id="password" name="password" required placeholder="password...">
+                    </label>
+                </div>
+                <div class="gender">
+                    <label>
+                         <input type="radio" name="gender" value="male" required><span>Male</span>
+                    </label>
+                    <label>
+                         <input type="radio" name="gender" value="female"><span>Female</span>
+                    </label>
+                    
+                </div>
+                <div>
+                    <div>
+                        <p>where do you live</p>
+                    </div>
+                    <select required>
+                        <option value="">Select an option</option>
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                    </select>
+                </div>
+                <div class="agreement">
+                    <input type="checkbox" id="agreement-checkbox" name="agreement" value="agreed" required>
+                    <label for="agreement-checkbox">
+                        I have agreed to 
+                    </label>
+                    <a href="#">terms and conditions</a>
+                </div>
+                <div id="feedback"></div>
+                <button type="submit" class="submit-button">Register</button>
+            </form>
+        </div>
+
+
+   </main>
+
+
+    <script src="/scripts.js"></script>
+</body>
+</html>

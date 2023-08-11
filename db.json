@@ -1,0 +1,55 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "First-name": "andris",
+      "last-name": "klimkans",
+      "email": "sirdna11@gmail.com",
+      "password": "123",
+      "gender": "male",
+      "agreement": "agreed",
+      "id": 2
+    },
+    {
+      "first-name": "andris",
+      "last-name": "klimkans",
+      "email": "sirdna11@gmail.com",
+      "password": "awd",
+      "gender": "female",
+      "agreement": "agreed",
+      "id": 3
+    },
+    {
+      "first-name": "andris",
+      "last-name": "klimkans",
+      "email": "sirdna11@gmail.com",
+      "password": "ad",
+      "gender": "female",
+      "agreement": "agreed",
+      "id": 4
+    },
+    {
+      "first-name": "andris",
+      "last-name": "klimkans",
+      "email": "sirdna11@gmail.com",
+      "password": "weraedadsd",
+      "gender": "male",
+      "agreement": "agreed",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
